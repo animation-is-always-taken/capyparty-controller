@@ -1,10 +1,9 @@
 {
     "bannerAds": [
         {
-            "start": "2022-01-11",
-            "text": "Support the devs!",
-            "src": "https://jb.zomka.dev/banners/buygames.png",
-            "href": "https://store.steampowered.com/search?developer=Jackbox%20Games%2C%20Inc."
+            "start": "2020-01-11",
+            "text": "Our first mod! Download now!",
+            "src": "https://jb.zomka.dev/banners/blindlash2out.png"
         },
         {
             "start": "2022-01-11",
@@ -13,18 +12,14 @@
             "href": "https://discord.gg/v7Xzqjg5KQ"
         },
         {
-            "start": "2020-01-11",
-            "text": "Our first mod! Download now!",
-            "src": "https://jb.zomka.dev/banners/blindlash2out.png"
+            "start": "2022-01-11",
+            "text": "Support the devs!",
+            "src": "https://jb.zomka.dev/banners/buygames.png",
+            "href": "https://store.steampowered.com/search?developer=Jackbox%20Games%2C%20Inc."
         }
     ],
 
     "postGameBanners": {
-        "blindlash2": {
-            "start": "2020-01-11",
-            "text": "Our first mod!",
-            "src": "https://jb.zomka.dev/banners/blindlash2out.png"
-        },
         "quiplash3": {
             "copy": "Like This Game? Try Party Pack 6!",
             "url": "https://www.jackboxgames.com/party-pack-six/?utm_source=jackboxtv&utm_medium=jbgtvpostq3&utm_campaign=jbgtvpostq3",

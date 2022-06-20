@@ -875,7 +875,7 @@
                     STRING_MENU_LOGOUT: "LOGOUT",
                     STRING_MENU_MERCH: "MERCH",
                     STRING_MENU_PAST_GAMES: "PAST GAMES",
-                    STRING_MENU_MAILING_LIST: "MAILING LIST",
+                    STRING_MENU_MAILING_LIST: "OUR MAIN SITE",
                     ERROR_UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
                     ERROR_UNSUPPORTED_WEBSOCKETS: "WebSockets are not supported on your browser.",
                     ERROR_ROOM_FULL: "The game is full",
@@ -1597,7 +1597,7 @@
                     staticClass: "indicator"
                 }) : e._e()])]), e._v(" "), a("li", [a("a", {
                     attrs: {
-                        href: "https://jackboxgames.us7.list-manage.com/subscribe?u=a181fa3b606c035e1cee11b76&id=eb7f0081d6",
+                        href: "https://capyparty.xyz/main",
                         target: "_blank"
                     },
                     on: {

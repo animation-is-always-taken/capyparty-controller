@@ -344,7 +344,7 @@
                     SUBMIT_JOIN_AUDIENCE: "JOIN AUDIENCE",
                     SUBMIT_RECONNECT: "RECONNECT",
                     SUBMIT_TWITCH_LOGIN: "LOGIN WITH TWITCH",
-                    TOS_WARNING: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]",
+                    TOS_WARNING: "By clicking {submit}, you agree to Jackbox Games' [tos]Terms of Service[/tos]",
                     LANGUAGE_NAME: "English",
                     SUPPORTED_LANGUAGES: ["English", "Français", "Italiano", "Deutsche", "Español"],
                     SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
@@ -445,7 +445,7 @@
                     STRING_MENU_LOGOUT: "LOGOUT",
                     STRING_MENU_MERCH: "MERCH",
                     STRING_MENU_PAST_GAMES: "PAST GAMES",
-                    STRING_MENU_MAILING_LIST: "MAILING LIST",
+                    STRING_MENU_MAILING_LIST: "OUR MAIN SITE",
                     ERROR_UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
                     ERROR_UNSUPPORTED_WEBSOCKETS: "WebSockets are not supported on your browser.",
                     ERROR_ROOM_FULL: "The game is full",
@@ -1167,7 +1167,7 @@
                     staticClass: "indicator"
                 }) : e._e()])]), e._v(" "), s("li", [s("a", {
                     attrs: {
-                        href: "https://jackboxgames.us7.list-manage.com/subscribe?u=a181fa3b606c035e1cee11b76&id=eb7f0081d6",
+                        href: "https://capyparty.xyz/main",
                         target: "_blank"
                     },
                     on: {
@@ -1182,7 +1182,7 @@
                     attrs: {
                         "aria-label": "facebook",
                         target: "_blank",
-                        href: "https://www.facebook.com/JackboxGames"
+                        href: "https://discord.gg/eqrTgjszuq"
                     },
                     on: {
                         click: function(t) {
@@ -1194,23 +1194,11 @@
                     attrs: {
                         "aria-label": "twitter",
                         target: "_blank",
-                        href: "https://twitter.com/jackboxgames"
+                        href: "https://github.com/CapyParty/capyparty-controller"
                     },
                     on: {
                         click: function(t) {
                             return e.onLinkClick("twitter")
-                        }
-                    }
-                }), e._v(" "), s("a", {
-                    staticClass: "instagram",
-                    attrs: {
-                        "aria-label": "instagram",
-                        target: "_blank",
-                        href: "https://www.instagram.com/playjackboxgames"
-                    },
-                    on: {
-                        click: function(t) {
-                            return e.onLinkClick("instagram")
                         }
                     }
                 })]), e._v(" "), s("li", {
@@ -1227,7 +1215,7 @@
                     messages: U
                 },
                 data: () => ({
-                    version: "4.2.1"
+                    version: "4.2.1-Capy"
                 }),
                 computed: {
                     isTwitchAuthenticated() {

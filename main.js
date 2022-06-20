@@ -3465,7 +3465,7 @@
                         d.o.setup(), S.locale = d.o.locale, this.$setSentryTag("app", "entry"), this.$analytics.setApplication({
                             appTag: "SignIn",
                             appId: "signin",
-                            appVersion: "4.2.1"
+                            appVersion: "4.2.1-Capy"
                         })
                     },
                     computed: {
@@ -4318,7 +4318,7 @@
                                 c = `${r} ${1===r?"entity":"entities"}`,
                                 l = [{
                                     type: "mrkdwn",
-                                    text: "*Version:* 4.2.1"
+                                    text: "*Version:* 4.2.1-Capy"
                                 }, {
                                     type: "mrkdwn",
                                     text: `*Domain:* ${window.location.hostname}`
@@ -4868,7 +4868,7 @@
                             environment: s.c.clientEnvironment,
                             ignoreErrors: ["ceCurrentVideo.currentTime", "chrome-extension", "ResizeObserver", "webkitExitFullScreen", "window.webkit.messageHandlers.selectedTextHandler.postMessage", "promiseResolveThenableJob", "Cannot read property 'then' of undefined", "null is not an object (evaluating 't.scrollHeight')", "Cannot read properties of null (reading 'removeEventListener')"],
                             logErrors: !0,
-                            release: "jackbox-tv@4.2.1",
+                            release: "jackbox-tv@4.2.1-Capy",
                             beforeSend: (e, t) => {
                                 return n = this, r = void 0, c = function*() {
                                     if (t.originalException instanceof a.EcastEntityNotFound) return i.uT("no entity found having key", {
@@ -4965,7 +4965,7 @@
                             const r = null !== (t = null === (e = this.error.event) || void 0 === e ? void 0 : e.event_id) && void 0 !== t ? t : "Unknown";
                             let i = "";
                             const a = null === (n = this.error.hint) || void 0 === n ? void 0 : n.originalException;
-                            return i = a ? "string" == typeof a ? a : a.message : "An unknown error occured", `Version:\n4.2.1\n\nEvent ID:\n${r}\n\n${i}`
+                            return i = a ? "string" == typeof a ? a : a.message : "An unknown error occured", `Version:\n4.2.1-Capy\n\nEvent ID:\n${r}\n\n${i}`
                         }
                     },
                     methods: {

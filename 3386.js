@@ -80,7 +80,7 @@
                         },
                         WARNING: {
                             DELETE: "Are you sure you want to delete this episode?",
-                            TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
+                            TOS: "By sharing content, you agree to Jackbox Games' [tos]Terms of Service[/tos]",
                             TOS_AGREE: "agree and share"
                         },
                         BACK_TO_EPISODES: "back to episodes",
