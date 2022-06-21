@@ -1192,7 +1192,7 @@
                 }), e._v(" "), s("a", {
                     staticClass: "twitter",
                     attrs: {
-                        "aria-label": "twitter",
+                        "aria-label": "github-square",
                         target: "_blank",
                         href: "https://github.com/CapyParty/capyparty-controller"
                     },
