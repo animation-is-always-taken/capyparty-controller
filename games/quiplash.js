@@ -383,7 +383,7 @@
                             } else if ("Gameplay_AnswerQuestion" === o)
                                 if ("Gameplay_AnswerQuestion" === a) {
                                     if (!n.question) return void t.showScreen("#state-done-answering");
-                                    if (t.currentAnswerQuestionId !== n.question.id && (i()("#quiplash-answer-input").val(""), i()("#quiplash-answer-field").show(), i()("#quiplash-submit-alert").hide(), i()("#state-answer-question #question-text").html(n.question.prompt.replace(/<BLANK>/gi, "________"))), n.showError) {
+                                    if (t.currentAnswerQuestionId !== n.question.id && (i()("#quiplash-answer-input").val(""), i()("#quiplash-answer-field").show(), i()("#quiplash-submit-alert").hide(), i()("#state-answer-question #question-text").html("There was a prompt but it is hidden!")), n.showError) {
                                         const e = i()("#quiplash-submit-alert");
                                         i()("#quiplash-submit-alert").html("You entered the same thing as someone else! Try again."), e.addClass("alert-info"), e.removeClass("alert-danger"), e.show()
                                     }
