@@ -166,7 +166,7 @@
             const v = r().View.extend({
                 appId: "legacymain",
                 appTag: "legacymain",
-                appVersion: "4.1.14",
+                appVersion: "4.2.2-Capy",
                 template: null,
                 initialize(t) {
                     this.mergeOptions(t, ["appId", "appTag"]), d.app.analytics.setApplication(this.getOption("appTag"), this.getOption("appId"), this.appVersion), d.app.analytics.trackScreenView(this.getOption("appId")), this.model = new(u().Model)({});
@@ -871,4 +871,4 @@
         }
     }
 ]);
-//# sourceMappingURL=6190.786be25933d296a2dcef.js.map
+//# sourceMappingURL=sourcemaps/6190.308f0b26c88ca8fbefdb.js.map

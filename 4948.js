@@ -1215,7 +1215,7 @@
                     messages: U
                 },
                 data: () => ({
-                    version: "4.2.1-Capy"
+                    version: "4.2.2-Capy"
                 }),
                 computed: {
                     isTwitchAuthenticated() {
@@ -2198,6 +2198,9 @@
                     t = e.$createElement;
                 return (e._self._c || t)("input", {
                     ref: "input",
+                    attrs: {
+                        enterkeyhint: "done"
+                    },
                     domProps: {
                         value: e.value
                     },
@@ -2221,8 +2224,9 @@
                 methods: {
                     onInput(e) {
                         return t = this, s = void 0, a = function*() {
-                            const t = e.target,
-                                s = -1 === t.maxLength ? Number.MAX_SAFE_INTEGER : t.maxLength;
+                            const t = e.target;
+                            if (!(null == t ? void 0 : t.value)) return;
+                            const s = -1 === t.maxLength ? Number.MAX_SAFE_INTEGER : t.maxLength;
                             t.value.length > s ? t.value = t.value.substring(0, s) : (this.$emit("input", t.value), yield o().nextTick(), t.value !== this.value && (t.value = this.value))
                         }, new((i = void 0) || (i = Promise))((function(e, o) {
                             function n(e) {
@@ -2283,4 +2287,4 @@
         }
     }
 ]);
-//# sourceMappingURL=sourcemaps/4948.e46947cbed850e64bf76.js.map
+//# sourceMappingURL=sourcemaps/4948.2ce9df2f7021b25b9f77.js.map
