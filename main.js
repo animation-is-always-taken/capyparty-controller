@@ -3515,7 +3515,7 @@
                         url: ""
                     },
                     twitch: {
-                        clientId: ""
+                        clientId: "ye2kcdndk89ejvc4hod89v55857tuh"
                     }
                 }, {
                     debug: !1,
@@ -3539,7 +3539,7 @@
                         url: "https://hooks.slack.com/services/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"
                     },
                     twitch: {
-                        clientId: "yn2iepd23vskpmkzgeg2lkfsct7gsc"
+                        clientId: "ye2kcdndk89ejvc4hod89v55857tuh"
                     }
                 })
             },
