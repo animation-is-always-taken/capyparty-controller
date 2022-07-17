@@ -1,6 +1,6 @@
 # capyparty-controller-ru
 
-Тёмная тема ~~с гордостью украденная~~ взять из [форка RainbowKappaMC](https://github.com/rainbowkappamc/suncracker0-tv)
+Тёмная тема ~~с гордостью украденная~~ взят из [форка RainbowKappaMC](https://github.com/rainbowkappamc/suncracker0-tv)
 
 Основный сайт форкнут с https://soafen.love
 
