@@ -1,8 +1,8 @@
-# capyparty-controller
+# capyparty-controller-ru
 
-Dark theme ~~proudly stolen~~ taken from [RainbowKappaMC's fork](https://github.com/rainbowkappamc/suncracker0-tv)
+Тёмная тема ~~с гордостью украденная~~ взять из [форка RainbowKappaMC](https://github.com/rainbowkappamc/suncracker0-tv)
 
-The main site forked from https://soafen.love
+Основный сайт форкнут с https://soafen.love
 
 
-Huge thanks to TheDarkSid3r for the dump and Akira896 helping with modding before :)
+Больше спасибо TheDarkSid3r за дамп, Akira896 и Neep за помощь :)
