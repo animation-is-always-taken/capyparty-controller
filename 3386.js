@@ -8,92 +8,92 @@
             const t = {
                 en: {
                     ACTION: {
-                        BACK: "Back",
-                        CANCEL: "Cancel",
-                        CLOSE: "Close",
-                        CREATE: "Create",
-                        DELETE: "Delete",
-                        DONE: "Done",
-                        EDIT: "Edit",
+                        BACK: "Volver",
+                        CANCEL: "Cancelar",
+                        CLOSE: "Cerrar",
+                        CREATE: "Crear",
+                        DELETE: "Borrar",
+                        DONE: "Hecho",
+                        EDIT: "Editar",
                         OK: "OK",
                         NO: "No",
-                        PLAY: "Play",
-                        PUBLISH: "Publish",
-                        SUBMIT: "Submit",
-                        TRY_AGAIN: "Try Again",
-                        UNDO: "Undo",
-                        YES: "Yes"
+                        PLAY: "Jugar",
+                        PUBLISH: "Publicar",
+                        SUBMIT: "Enviar",
+                        TRY_AGAIN: "Intentar de nuevo",
+                        UNDO: "Deshacer",
+                        YES: "Si"
                     },
                     ALT: {
                         UGC: {
-                            VISIBILITY_CONTROLLER_OFF: "prompts hidden on players' devices",
-                            VISIBILITY_CONTROLLER_ON: "prompts shown on players' devices",
-                            VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                            VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                            VISIBILITY_CONTROLLER_OFF: "los mensajes no se muestran en los dispositivos de los jugadores",
+                            VISIBILITY_CONTROLLER_ON: "los mensajes se muestran en los dispositivos de los jugadores",
+                            VISIBILITY_SCREEN_OFF: "los mensajes no se muestran en el juego",
+                            VISIBILITY_SCREEN_ON: "los mensajes se muestran en el juego"
                         }
                     },
                     ERROR: {
-                        DISCONNECTED: "You have been disconnected.",
-                        ROOM_DESTROYED: "Thanks for playing!",
-                        ROOM_DISCONNECTED: "Disconnected",
-                        ROOM_NOT_FOUND: "Room not found",
+                        DISCONNECTED: "Desconectado.",
+                        ROOM_DESTROYED: "¡Gracias por jugar!",
+                        ROOM_DISCONNECTED: "Desconectado",
+                        ROOM_NOT_FOUND: "No se encontro una partida",
                         TITLE: "Error"
                     },
                     LOBBY: {
-                        JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-                        PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-                        WAITING_FOR_VIP: "Waiting for {name} to start the game",
-                        WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-                        GAME_STARTING: "Game is starting",
-                        BUTTON_START: "Press to Start",
-                        BUTTON_CANCEL: "Press to Cancel"
+                        JOINED_COUNT: "x | {count} de {maxPlayers} jugadores entraron a la partida | {count} de {maxPlayers} jugadores entraron a la partida",
+                        PLAYERS_NEEDED: "x | se necesitan {count} jugadores para empezar | se necesitan {count} jugadores para empezar",
+                        WAITING_FOR_VIP: "Esperando a que {name} empieze la partida",
+                        WAITING_FOR_GAMEPAD: "Esperando a que empieze la partida",
+                        GAME_STARTING: "Comenzando",
+                        BUTTON_START: "Preciona para comenzar",
+                        BUTTON_CANCEL: "Preciona para cancelar"
                     },
                     POST_GAME: {
-                        GALLERY_LINK: "Visit the Gallery",
-                        PLAY_AGAIN: "Play again?",
-                        BUTTON_SAME_PLAYERS: "Same Players",
-                        BUTTON_NEW_PLAYERS: "New Players"
+                        GALLERY_LINK: "Visita la galeria",
+                        PLAY_AGAIN: "¿Volver a jugar?",
+                        BUTTON_SAME_PLAYERS: "Con los mismos jugadores",
+                        BUTTON_NEW_PLAYERS: "Con nuevos jugadores"
                     },
                     TUTORIAL: {
-                        BUTTON_SKIP: "Skip",
-                        BUTTON_NEXT: "Next",
-                        BUTTON_DONE: "Let’s Go!"
+                        BUTTON_SKIP: "Omitir",
+                        BUTTON_NEXT: "Siguiente",
+                        BUTTON_DONE: "¡Vamos!"
                     },
                     AUDIENCE: {
-                        NAME: "AUDIENCE"
+                        NAME: "AUDIENCIA"
                     },
                     UGC: {
-                        EPISODE_REPORT: "Report Episode",
+                        EPISODE_REPORT: "Reportar episodio",
                         EPISODE_UNLOAD: "Unload Episode",
-                        EPISODE_VIEW_AUTHOR: "View Author",
-                        EPISODES_LOAD: "Load an episode by id:",
-                        EPISODES_MENU: "Episodes Menu",
-                        EPISODES_SELECT: "Or select an epsiode:",
-                        EPISODES_WARNING: "Warning: user generated content is not rated",
+                        EPISODE_VIEW_AUTHOR: "Ver autor",
+                        EPISODES_LOAD: "Cargar episodio por id:",
+                        EPISODES_MENU: "Menu de episodios",
+                        EPISODES_SELECT: "O elige un episodio:",
+                        EPISODES_WARNING: "Advertencia: los usuarios hacen el contenido",
                         INSTRUCTION: {
-                            CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                            LOAD: "create or load?",
-                            PUBLISH: "publish your episode",
-                            TITLE: "name your episode",
-                            TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                            WRITE: "write your prompts"
+                            CREATE_TITLE: "primero lo primero, escribe un nombre para el episodio que tendra todo lo que hagas.",
+                            LOAD: "crear o cargar?",
+                            PUBLISH: "publica el episodio",
+                            TITLE: "dale un nombre a tu episodio",
+                            TOGGLE_VISIBILITY: "preciona para mostrar/esconder mensajes",
+                            WRITE: "escribe tus mensajes"
                         },
                         WARNING: {
-                            DELETE: "Are you sure you want to delete this episode?",
-                            TOS: "By sharing content, you agree to Jackbox Games' [tos]Terms of Service[/tos]",
-                            TOS_AGREE: "agree and share"
+                            DELETE: "¿seguro de que quieres borrar el episodio?",
+                            TOS: "Al compartir contenido, tu acceptas en automatico con los' [tos]Terminos y condiciones[/tos] de jackbox",
+                            TOS_AGREE: "aceptar y compartir"
                         },
-                        BACK_TO_EPISODES: "back to episodes",
+                        BACK_TO_EPISODES: "Volver a los episodios",
                         BACK_TO_MENU: "back to menu",
-                        CREATE_NEW_EPISODE: "create a new episode",
-                        PREVIOUS_EPISODES: "previous episodes",
-                        PROMPT_ADD: "add prompt",
+                        CREATE_NEW_EPISODE: "crear un nuevo episodio",
+                        PREVIOUS_EPISODES: "episodios anteriores",
+                        PROMPT_ADD: "añadir mensaje",
                         PROMPT_PLACEHOLDER: "enter a prompt",
-                        PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-                        TITLE_PLACEHOLDER: "enter a title"
+                        PROMPTS_COUNT_HIDDEN: "({count} escontido)",
+                        TITLE_PLACEHOLDER: "titulo"
                     },
                     PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-                    ROOM_CODE: "ROOM CODE",
+                    ROOM_CODE: "CODIGO DE LA HABITACION",
                     ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
                 },
                 fr: {
