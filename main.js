@@ -588,7 +588,7 @@
                         },
                         we = function(e) {
                             for (var t = [], n = ye[e] || [], r = 0; r < n.length; r++) n[r] && (t[Math.floor(r / 6)] ^= 1 << r % 6);
-                            for (var i = 0; i < t.length; i++) t[i] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_".charAt(t[i] || 0);
+                            for (var i = 0; i < t.length; i++) t[i] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя".charAt(t[i] || 0);
                             return t.join("")
                         },
                         ke = function(e) {
@@ -1044,7 +1044,7 @@
 
                     function Dt(e) {
                         At = At || function() {
-                            var e = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                            var e = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
                             return (e += e.toLowerCase() + "0123456789-_") + "."
                         }(), Gt = Gt || function() {
                             for (var e = At, t = {}, n = 0; n < e.length; ++n) t[e[n]] = n;
@@ -4585,10 +4585,10 @@
                         return this.htmlEscape(t).trim()
                     }
                     static sanitizeName(e) {
-                        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+                        return e.replace(/[^A-Z0-9\u0400-\u04FF\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
                     }
                     static sanitizeInput(e) {
-                        return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+                        return e.replace(/[^\u0400-\u04FF\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
                     }
                     static isInTolerance(e, t, n) {
                         return !(Math.abs(e.x - t.x) < n || Math.abs(e.y - t.y) > n)

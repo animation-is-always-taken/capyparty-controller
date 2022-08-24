@@ -203,7 +203,7 @@
                     })
                 }),
                 O = g.d.extend({
-                    template: o().template('<div class="controller-content"> <div class="canvas-container"> <div id="prompt" class="prompt"></div> <div id="toolbar" class="toolbar"></div> <div id="sketchpad"></div> <div id="input" class="textInput"></div> <div id="buttons" class="buttons"></div> <div id="post-sketchpad" class="post-sketchpad"> <div id="submit"> <button id="submitdrawing" class="button submitDrawing">Submit</button><br/> </div> <button id="censorOptions" class="button">Censor Options</button> <div class="footer"></div> </div> </div> </div> '),
+                    template: o().template('<div class="controller-content"> <div class="canvas-container"> <div id="prompt" class="prompt"></div> <div id="toolbar" class="toolbar"></div> <div id="sketchpad"></div> <div id="input" class="textInput"></div> <div id="buttons" class="buttons"></div> <div id="post-sketchpad" class="post-sketchpad"> <div id="submit"> <button id="submitdrawing" class="button submitDrawing">Отправить</button><br/> </div> <button id="censorOptions" class="button">Censor Options</button> <div class="footer"></div> </div> </div> </div> '),
                     model: new x,
                     bindings: o().extend({}, g.d.prototype.bindings, {
                         ".textInput": {
@@ -585,7 +585,7 @@
                     }
                 }),
                 Z = d().View.extend({
-                    template: o().template('<div id="controller" class="state-controller controller-content"> <div class="prompt">prompt</div> <div id="slides"> <div id="slidesRegion" class="slidesRegion"> </div> <div class="add"> <button>ADD SLIDE</button> </div> </div> </div> <div class="submitRegion footer"> <button class="submit">SUBMIT</button> </div>'),
+                    template: o().template('<div id="controller" class="state-controller controller-content"> <div class="prompt">prompt</div> <div id="slides"> <div id="slidesRegion" class="slidesRegion"> </div> <div class="add"> <button>ADD SLIDE</button> </div> </div> </div> <div class="submitRegion footer"> <button class="submit">ОТПРАВИТЬ</button> </div>'),
                     className: "Slideshow scrollable",
                     model: new Q,
                     regions: {

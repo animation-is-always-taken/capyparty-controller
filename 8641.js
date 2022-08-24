@@ -200,7 +200,7 @@
                             return new r.Token(r.Token.Type.startTag, n, o, e[0])
                         }
                         return new r.Token(r.Token.Type.endTag, e[1].substr(1, e[1].length - 1))
-                    }, t.nameChars = "[a-zA-Z0-9\\.\\-_:;/]", t.valueChars = "[a-zA-Z0-9\\.\\-_:;#/\\s]", t
+                    }, t.nameChars = "[\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491a-zA-Z0-9\\.\\-_:;/]", t.valueChars = "[\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491a-zA-Z0-9\\.\\-_:;#/\\s]", t
                 }();
             e.Tokenizer = o
         },

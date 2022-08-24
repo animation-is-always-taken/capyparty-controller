@@ -17,7 +17,7 @@
                         EDIT: "Edit",
                         OK: "OK",
                         NO: "No",
-                        PLAY: "Play",
+                        PLAY: "Играть",
                         PUBLISH: "Publish",
                         SUBMIT: "Submit",
                         TRY_AGAIN: "Try Again",
@@ -33,11 +33,11 @@
                         }
                     },
                     ERROR: {
-                        DISCONNECTED: "You have been disconnected.",
-                        ROOM_DESTROYED: "Thanks for playing!",
-                        ROOM_DISCONNECTED: "Disconnected",
-                        ROOM_NOT_FOUND: "Room not found",
-                        TITLE: "Error"
+                        DISCONNECTED: "Вы отключены.",
+                        ROOM_DESTROYED: "Спасибо за игру!",
+                        ROOM_DISCONNECTED: "Потерено соедениние с комнатой",
+                        ROOM_NOT_FOUND: "Комната не найдена",
+                        TITLE: "Ошибка"
                     },
                     LOBBY: {
                         JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",

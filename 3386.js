@@ -8,21 +8,21 @@
             const t = {
                 en: {
                     ACTION: {
-                        BACK: "Back",
-                        CANCEL: "Cancel",
-                        CLOSE: "Close",
-                        CREATE: "Create",
-                        DELETE: "Delete",
-                        DONE: "Done",
-                        EDIT: "Edit",
-                        OK: "OK",
-                        NO: "No",
-                        PLAY: "Play",
-                        PUBLISH: "Publish",
-                        SUBMIT: "Submit",
-                        TRY_AGAIN: "Try Again",
-                        UNDO: "Undo",
-                        YES: "Yes"
+                        BACK: "Назад",
+                        CANCEL: "Отмена",
+                        CLOSE: "Закрыть",
+                        CREATE: "Создать",
+                        DELETE: "Удалить",
+                        DONE: "Готово",
+                        EDIT: "Изменить",
+                        OK: "ОК",
+                        NO: "Нет",
+                        PLAY: "Играть",
+                        PUBLISH: "Опубликовать",
+                        SUBMIT: "Отправить",
+                        TRY_AGAIN: "Попробуйте ещё раз",
+                        UNDO: "Отменить",
+                        YES: "Да"
                     },
                     ALT: {
                         UGC: {
@@ -33,34 +33,34 @@
                         }
                     },
                     ERROR: {
-                        DISCONNECTED: "You have been disconnected.",
-                        ROOM_DESTROYED: "Thanks for playing!",
-                        ROOM_DISCONNECTED: "Disconnected",
-                        ROOM_NOT_FOUND: "Room not found",
-                        TITLE: "Error"
+                        DISCONNECTED: "Вы были отключены.",
+                        ROOM_DESTROYED: "Спасибо за игру!",
+                        ROOM_DISCONNECTED: "Отключено",
+                        ROOM_NOT_FOUND: "Комната не найдена",
+                        TITLE: "Ошибка"
                     },
                     LOBBY: {
-                        JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-                        PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-                        WAITING_FOR_VIP: "Waiting for {name} to start the game",
-                        WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-                        GAME_STARTING: "Game is starting",
-                        BUTTON_START: "Press to Start",
-                        BUTTON_CANCEL: "Press to Cancel"
+                        JOINED_COUNT: "x | {count} из {maxPlayers} игроков зашли | {count} из {maxPlayers} игроков зашли!",
+                        PLAYERS_NEEDED: "x | {count} игроков нужно для запуска | {count} игроков нужно для запуска",
+                        WAITING_FOR_VIP: "Ждите пока {name} не начнёт игру",
+                        WAITING_FOR_GAMEPAD: "Ждите начала игры",
+                        GAME_STARTING: "Игра начинается",
+                        BUTTON_START: "Нажмите чтобы играть",
+                        BUTTON_CANCEL: "Нажмите чтобы отменить"
                     },
                     POST_GAME: {
-                        GALLERY_LINK: "Visit the Gallery",
-                        PLAY_AGAIN: "Play again?",
-                        BUTTON_SAME_PLAYERS: "Same Players",
-                        BUTTON_NEW_PLAYERS: "New Players"
+                        GALLERY_LINK: "Посетить галерию",
+                        PLAY_AGAIN: "Сыграть ещё раз?",
+                        BUTTON_SAME_PLAYERS: "Теже игроки",
+                        BUTTON_NEW_PLAYERS: "Новые игроки"
                     },
                     TUTORIAL: {
-                        BUTTON_SKIP: "Skip",
-                        BUTTON_NEXT: "Next",
-                        BUTTON_DONE: "Let’s Go!"
+                        BUTTON_SKIP: "Пропустить",
+                        BUTTON_NEXT: "Следуйщее",
+                        BUTTON_DONE: "Погнали!"
                     },
                     AUDIENCE: {
-                        NAME: "AUDIENCE"
+                        NAME: "ЗРИТЕЛИ"
                     },
                     UGC: {
                         EPISODE_REPORT: "Report Episode",
@@ -92,9 +92,9 @@
                         PROMPTS_COUNT_HIDDEN: "({count} hidden)",
                         TITLE_PLACEHOLDER: "enter a title"
                     },
-                    PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-                    ROOM_CODE: "ROOM CODE",
-                    ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+                    PASSWORD_PLACEHOLDER: "ВВЕДИТЕ 5 ЗНАЧНЫЙ ПАРОЛЬ",
+                    ROOM_CODE: "КОД КОМНАТЫ",
+                    ROOM_CODE_PLACEHOLDER: "ВВЕДИТЕ 4 ЗНАЧНЫЙ КОД"
                 },
                 fr: {
                     ACTION: {

@@ -33,7 +33,7 @@
                             return t.preventDefault(), e.onSubmitClick.apply(null, arguments)
                         }
                     }
-                }, [e._v(e._s(e.player.submitText || "SUBMIT"))])])])])
+                }, [e._v(e._s(e.player.submitText || "ОТПРАВИТь"))])])])])
             };
             n._withStripped = !0;
             var a = s(2934),
@@ -352,7 +352,7 @@
                     directives: [{
                         name: "bb",
                         rawName: "v-bb",
-                        value: e.player.submitText || "SUBMIT",
+                        value: e.player.submitText || "ОТПРАВИТЬ",
                         expression: "player.submitText || 'SUBMIT'"
                     }],
                     on: {
@@ -464,7 +464,7 @@
                     directives: [{
                         name: "bb",
                         rawName: "v-bb",
-                        value: e.player.submitText || "SUBMIT",
+                        value: e.player.submitText || "ОТПРАВИТЬ",
                         expression: "player.submitText || 'SUBMIT'"
                     }],
                     on: {
@@ -704,13 +704,13 @@
                             return t.preventDefault(), e.onSubmitClick.apply(null, arguments)
                         }
                     }
-                }, [e._v("\n        " + e._s(e.component.submit.text || "SUBMIT") + "\n    ")]) : s("button", {
+                }, [e._v("\n        " + e._s(e.component.submit.text || "ОТПРАВИТЬ") + "\n    ")]) : s("button", {
                     on: {
                         click: function(t) {
                             return t.preventDefault(), e.onSubmitClick.apply(null, arguments)
                         }
                     }
-                }, [e._v("SUBMIT")])], 2)
+                }, [e._v("ОТПРАВИТЬ")])], 2)
             };
             q._withStripped = !0;
             const J = i().extend({

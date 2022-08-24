@@ -834,14 +834,14 @@
                         debug: !1,
                         strings: {
                             drawing_empty: "You must draw something!",
-                            submit: "submit",
+                            submit: "отправить",
                             ERROR_REJECTED_OBJECT: "That's not allowed, enter something else!"
                         }
                     }
                 }),
                 C = h().View.extend({
                     className: "Draw",
-                    template: a().template('<div class="controller-content"> <div class="canvas-container"> <div id="prompt" class="prompt"></div> <div id="toolbar" class="toolbar"></div> <div id="sketchpad"></div> <div id="buttons" class="buttons"></div> <div id="post-sketchpad" class="post-sketchpad"> <div id="submit"> <button id="submitdrawing" class="button submitDrawing">Submit</button><br/> </div> <button id="censorOptions" class="button">Censor Options</button> <div class="footer"></div> </div> </div> </div> '),
+                    template: a().template('<div class="controller-content"> <div class="canvas-container"> <div id="prompt" class="prompt"></div> <div id="toolbar" class="toolbar"></div> <div id="sketchpad"></div> <div id="buttons" class="buttons"></div> <div id="post-sketchpad" class="post-sketchpad"> <div id="submit"> <button id="submitdrawing" class="button submitDrawing">Отправить</button><br/> </div> <button id="censorOptions" class="button">Censor Options</button> <div class="footer"></div> </div> </div> </div> '),
                     model: new b,
                     regions: {
                         prompt: "#prompt",
@@ -872,7 +872,7 @@
                             observe: ["hideSubmit", "actions", "strings"],
                             visible: !0,
                             updateView: !0,
-                            onGet: t => !t[0] && !t[1] && (void 0 === t[2] ? "" : t[2].submit || "Submit")
+                            onGet: t => !t[0] && !t[1] && (void 0 === t[2] ? "" : t[2].submit || "Отправить")
                         }
                     },
                     initialize() {
@@ -1036,7 +1036,7 @@
                     defaults: {
                         state: "EnterSingleText",
                         actions: [{
-                            text: "submit",
+                            text: "отправить",
                             action: "submit"
                         }],
                         allowEmpty: !1,
@@ -1401,7 +1401,7 @@
                             vip_episodes_load: "Load an episode by id:",
                             vip_episodes_select: "Or select an episode:",
                             vip_episodes_back: "Back",
-                            vip_episodes_submit: "SUBMIT",
+                            vip_episodes_submit: "ОТПРАВИТЬ",
                             vip_episodes_view_author: "View Author",
                             button_start: "Everybody's In",
                             button_cancel: "Cancel",
@@ -1690,7 +1690,7 @@
                                         preventAutosize: !0,
                                         placeholder: "???-????",
                                         inlineSubmit: !0,
-                                        inlineSubmitText: i.model.get("strings").vip_episodes_submit || "SUBMIT",
+                                        inlineSubmitText: i.model.get("strings").vip_episodes_submit || "ОТПРАВИТЬ",
                                         className: "lobbyUgcInput"
                                     }), t.collection.add({
                                         type: "text",
@@ -2922,7 +2922,7 @@
                         this.promptComponent.model.clear({
                             silent: !0
                         }).set(this.model.get("prompt")), this.choicesList.options.block = this.model.get("block"), this.choicesList.collection.set(this.model.get("choices")), "multiple" === this.model.get("type") && a().all(this.model.get("choices"), (t => !t.disabled)) && this.choicesList.collection.push({
-                            text: "Submit",
+                            text: "Отправить",
                             action: "submit",
                             block: !1
                         }), this.model.get("isAudience") && (void 0 !== this.model.get("choiceId") && this.model.get("choiceId") === this.getOption("choiceId") || (this.selected = [], this.audienceChoice = void 0, this.votesLeft = void 0), this.selected.length > 0 && ("multiple" === this.model.get("type") ? this.choicesList.children.forEach((t => {

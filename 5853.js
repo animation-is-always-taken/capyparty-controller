@@ -8,22 +8,22 @@
             const o = {
                 en: {
                     ACTION: {
-                        BACK: "Back",
-                        CANCEL: "Cancel",
-                        CLOSE: "Close",
-                        CREATE: "Create",
-                        DELETE: "Delete",
-                        DONE: "Done",
-                        EDIT: "Edit",
-                        OK: "OK",
-                        NO: "No",
-                        PLAY: "Play",
-                        PUBLISH: "Publish",
-                        RESET: "Reset",
-                        SUBMIT: "Submit",
-                        TRY_AGAIN: "Try Again",
+                        BACK: "Назад",
+                        CANCEL: "Отменить",
+                        CLOSE: "Закрыть",
+                        CREATE: "Создать",
+                        DELETE: "Удалить",
+                        DONE: "Готово",
+                        EDIT: "Изменить",
+                        OK: "ОК",
+                        NO: "Нет",
+                        PLAY: "Играть",
+                        PUBLISH: "Опубликовать",
+                        RESET: "Сбросить",
+                        SUBMIT: "Отправить",
+                        TRY_AGAIN: "Попробуй ещё раз",
                         UNDO: "Undo",
-                        YES: "Yes"
+                        YES: "Да"
                     },
                     ALT: {
                         UGC: {
@@ -34,29 +34,29 @@
                         }
                     },
                     ENTRY: {
-                        PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-                        ROOM_CODE: "ROOM CODE",
-                        ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+                        PASSWORD_PLACEHOLDER: "ВВЕДИТЕ 5-ЗНАЧНЫЙ ПАРОЛЬ",
+                        ROOM_CODE: "КОД КОМНАТЫ",
+                        ROOM_CODE_PLACEHOLDER: "ВВЕДИТЕ 4-ЗНАЧНЫЙ КОД"
                     },
                     ERROR: {
-                        DISCONNECTED: "You have been disconnected.",
-                        DRAWING_NOTHING: "You have to draw something!",
-                        PLAYER_KICKED: "You’ve been kicked.",
-                        ROOM_DESTROYED: "Thanks for playing!",
-                        ROOM_DISCONNECTED: "Disconnected",
-                        ROOM_NOT_FOUND: "Room not found",
-                        TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-                        TEXT_NOTHING: "You can’t enter nothing!",
-                        TITLE: "Error"
+                        DISCONNECTED: "Вы были отключены.",
+                        DRAWING_NOTHING: "Вам надо что-то нарисовать!",
+                        PLAYER_KICKED: "Вы были отключены модератором.",
+                        ROOM_DESTROYED: "Спасибо за игру!",
+                        ROOM_DISCONNECTED: "Отключены",
+                        ROOM_NOT_FOUND: "Комната не найдена",
+                        TEXT_NAUGHTY: "К сожалению вы не можете не это отправить. Будьте более вежлевее к другим игрокам.",
+                        TEXT_NOTHING: "Вы не может отправить пустой текст!",
+                        TITLE: "Ошибка"
                     },
                     LOBBY: {
-                        JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-                        PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-                        WAITING_FOR_VIP: "Waiting for {name} to start the game",
-                        WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-                        GAME_STARTING: "Game is starting",
-                        BUTTON_START: "Press to Start",
-                        BUTTON_CANCEL: "Press to Cancel"
+                        JOINED_COUNT: "x | {count} из {maxPlayers} игроков зашли | {count} из {maxPlayers} игроков зашли",
+                        PLAYERS_NEEDED: "x | {count} игрока нужно для старта игры | {count} игроков нужно для старта игры",
+                        WAITING_FOR_VIP: "Ждём чтобы {name} начал игру",
+                        WAITING_FOR_GAMEPAD: "Ждём начала игры",
+                        GAME_STARTING: "Игра начинается",
+                        BUTTON_START: "Нажмите для Старта",
+                        BUTTON_CANCEL: "Нажмите для Отмены"
                     },
                     POST_GAME: {
                         GALLERY_LINK: "Visit the Gallery",
