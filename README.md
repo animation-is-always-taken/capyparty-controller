@@ -5,4 +5,4 @@
 Основный сайт форкнут с https://soafen.love
 
 
-Больше спасибо TheDarkSid3r за дамп, Akira896 и Neep за помощь :)
+Больше спасибо TheDarkSid3r за дамп, Akira896, BurAndDev и Neep за помощь :)
